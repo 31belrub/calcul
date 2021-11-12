@@ -1,0 +1,116 @@
+.calculator{
+	
+	background: linear-gradient(180deg, rgb(47, 62, 77), rgb(20, 19, 25) 100%);
+    margin: 0 auto;
+    width: 400px;
+    height: 900px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.display{
+    height: 300px;
+}
+
+.buttons{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 100px);
+	padding-top: 90px;
+}
+button{
+    border-width: 1px;
+    font-size: 40px;
+	height:70px;
+	width: 70px;
+	border-radius: 50%;
+	align-self: center;
+	justify-self: center;
+}
+
+#button_1{
+    color: honeydew;
+    background-color: #c4c4c4;
+}
+
+
+#button_16{
+    background-color: #FFBB00;
+    color:white;
+}
+
+#button_4, #button_8, #button_12, #button_16, #button_18, #button_19{
+	background: linear-gradient(180deg, rgb(160, 176, 89), rgb(66, 60, 37) 26%);
+}
+
+
+#button_1, #button_2, #button_3{
+	background: linear-gradient(180deg, rgb(195, 195, 195), rgb(39, 105, 91));
+
+}
+
+#button_5, #button_6, #button_7, #button_9, #button_10, #button_11, #button_13, #button_14, #button_15, #button_17 {
+    background: linear-gradient(180deg, rgb(103, 112, 110), rgb(0, 0, 0));
+    color: white;
+}
+#button_20{
+	background: linear-gradient(180deg, rgb(47, 62, 77), rgb(255, 216, 129) 32%);
+}
+.input{
+    width: 390px;
+    height: 100px;
+    margin-top: 200px;
+    padding: 0;
+    color: white;
+	border-radius: 20px;
+	border: 3px solid;
+	border-color:  linear-gradient(180deg, rgb(47, 62, 77), rgb(255, 216, 129) 32%);
+	background-color: inherit;
+    text-align: end;
+    font-size: 60px;
+
+}
+
+
+
+.green{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color:green;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.red{
+	
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color:red;
+	position: absolute;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+.white1{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: 3px solid white;
+	position: absolute;
+	top: 360px;
+	margin-left: 35px;
+}
+
+.white2{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: 3px solid white;
+	position: absolute;
+	top: 360px;
+	margin-left: 80px;
+}
